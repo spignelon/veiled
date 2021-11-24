@@ -1,5 +1,5 @@
 # Veiled
-Secure, file-less password generator cum password manager
+Secure, file-less password manager
 ---
 Veiled is a secure file-less password manager which computes unique passwords securely by processing your masterpassword with other information like the website name, your username for the website and the password length (default: 32) without internet or without saving your password anywhere which protects your password database from breach or theft.
 ## Usage:
