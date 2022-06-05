@@ -10,7 +10,7 @@ if not bool(web):
 	sys.exit(0)
 uname = input("Enter username: ")
 key = bytes(getpass.getpass("Enter your master key: "), "UTF-8")
-le = input("Set the length of the password: ")
+le = input("Set password length: ")
 if not (bool(uname) and bool(key)):
 	print("Username and/or key cannot be empty!!")
 	sys.exit(1)
